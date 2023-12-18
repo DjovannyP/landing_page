@@ -1,6 +1,11 @@
+Body{
+    height: 1200px;
+    margin: 0;
+}
+
 .head{
     background-color: #1f2037;
-    width: fit-content;
+    width: 100%;
     height: 530px;
 }
 .header-link{
@@ -34,7 +39,7 @@ p{
     display: flex;
     flex-wrap: wrap;
 }
-.title-box{
+.hero{
 display: flex;
 gap: 10rem;
 padding-left: 150px;
@@ -61,4 +66,37 @@ img{
    font-weight: bold;
    border-radius: 10px;
    border: none;
+}
+
+h2{
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.gallery{
+    height: auto;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    gap: 35px;
+   
+}
+.gallery figure{
+    margin: 0;
+}
+.gallery figure img{
+    width: 100%;
+    height: 70%;
+    object-fit: cover; 
+    border:#3882f6 solid 4px;
+    border-radius: 15px;
+}
+.gallery figcaption{
+   text-align: center;
+   height: auto;
+   margin-top: 5px;
 }
